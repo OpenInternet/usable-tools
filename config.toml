@@ -70,7 +70,19 @@ summaryLength = 20
   weight = 5
 
 [[menu.main]]
+  identifier = "adversaries"
+	name = "Adversaries"
+	url = "/adversaries/"
+  weight = 6
+
+[[menu.main]]
+  identifier = "organizations"
+	name = "Organizations"
+	url = "/organizations/"
+  weight = 7
+
+[[menu.main]]
   identifier = "guidebook"
 	name = "Guidebook"
 	url = "/guidebook/"
-  weight = 6
+  weight = 8

@@ -1,0 +1,52 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-default-list page-personas-list {{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+
+<div class="intro">
+  <div class="inner">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-10 align-self-center">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip strip-grey">
+  <div class="container whitebox">
+
+    <div id="personas-list">
+
+      <input class="search" placeholder="Search gender, region, country, threats, tools etc" />
+
+      <ul class="row list justify-content-center">
+        {{ range .Pages }}
+          <li class="col-6 col-md-3 persona-item">
+
+            <a href="{{ .Permalink }}">
+              <span class="main-photo"><img src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="Adversary archetype image for {{ .Params.title }}"/></span>
+              <span class="persona-title">{{ .Params.title }}</span>
+            </a>
+
+            <div class="role hidden">{{ .Params.role }}</div>
+            <div class="name hidden">{{ .Params.name }}</div>
+            <div class="community hidden">{{ .Params.community }}</div>
+            <div class="threats hidden">{{ .Params.threats }}</div>
+            <div class="tools hidden">{{ .Params.tools }}</div>
+            <div class="profession hidden">{{ .Params.profession }}</div>
+            <div class="gender hidden">{{ .Params.gender }}</div>
+            <div class="region hidden">{{ .Params.region }}</div>
+            <div class="country hidden">{{ .Params.country }}</div>
+
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</div>
+
+{{ end }}

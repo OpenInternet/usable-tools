@@ -1,5 +1,6 @@
 ---
 title: ''
+region: ''
 image: "images/adversaries/default.png"
 date: {{ .Date }}
 pdf: "pdfs/adversaries/CHANGE_ME.pdf"

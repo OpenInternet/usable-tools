@@ -10,9 +10,9 @@ community:
 tools: ["Messaging Apps", "Collaboration"]
 threats: ["Arrest", "Device Confiscation", "Surveillance"]
 short_quote: '"My ideal homeland is one where women are treated with respect and have equal access to education and work opportunities"'
-date: 2019-05-20T23:15:28-07:00
+date: {{ .Date }}
 pdf: "personas/persona-example.pdf"
-draft: false
+draft: true
 ---
 
 ## Overview

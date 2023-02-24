@@ -56,8 +56,8 @@
   width: 100%;
   img {
     @include img-fluid();
-    min-width: 100%;
     border-radius: 1.2rem;
+    max-height: 400px;
   }
   .main-caption {
     margin: 1rem 0;

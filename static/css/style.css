@@ -133,7 +133,7 @@ sup {
 
 a {
   color: #002D62;
-  text-decoration: underline;
+  text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
@@ -174,10 +174,6 @@ svg:not(:root) {
 
 table {
   border-collapse: collapse; }
-
-div.content table td, div.content table th {
-          border: 1px solid black;
-        }
 
 caption {
   padding-top: 0.75rem;
@@ -6002,8 +5998,7 @@ h3 {
     max-width: 100%;
     height: auto;
     border-radius: 1.2rem;
-    max-height: 400px;
-  }
+    max-height: 400px; }
   .main-photo .main-caption {
     margin: 1rem 0;
     color: #005CAB; }
@@ -17162,7 +17157,7 @@ readers do not read off random characters that represent icons */
 
 .page-personas-list #personas-list .search {
   min-width: 400px;
-  width: 100%;}
+  width: 100%; }
 
 .page-persona h1 {
   font-size: 1.6rem;
@@ -17261,6 +17256,106 @@ readers do not read off random characters that represent icons */
     padding: 0; }
 
 .page-persona .persona .content p {
+  text-align: left;
+  margin-bottom: 2rem; }
+
+.page-adversary h1 {
+  font-size: 1.6rem;
+  margin-top: 1.5rem; }
+
+.page-adversary h2 {
+  text-align: center; }
+
+.page-adversary #overview,
+.page-adversary #goals,
+.page-adversary #threats,
+.page-adversary #strengths,
+.page-adversary #questions {
+  margin-top: 3rem;
+  display: inline-block;
+  padding-left: 2.5rem;
+  position: relative; }
+  .page-adversary #overview::before,
+  .page-adversary #goals::before,
+  .page-adversary #threats::before,
+  .page-adversary #strengths::before,
+  .page-adversary #questions::before {
+    position: absolute;
+    left: 0;
+    top: 0.3rem;
+    background-size: 100% 100%;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    content: ""; }
+    @media (min-width: 768px) {
+      .page-adversary #overview::before,
+      .page-adversary #goals::before,
+      .page-adversary #threats::before,
+      .page-adversary #strengths::before,
+      .page-adversary #questions::before {
+        top: 0.6rem; } }
+
+.page-adversary #overview {
+  color: #002D62; }
+  .page-adversary #overview::before {
+    background: url(../images/clipboard-list-solid.svg) no-repeat left center; }
+
+.page-adversary #goals {
+  color: #6CB33F; }
+  .page-adversary #goals::before {
+    background: url(../images/trophy-solid.svg) no-repeat left center; }
+
+.page-adversary #threats {
+  color: #F15D22; }
+  .page-adversary #threats::before {
+    background: url(../images/exclamation-triangle-solid.svg) no-repeat left center; }
+
+.page-adversary #strengths {
+  color: #FBB034; }
+  .page-adversary #strengths::before {
+    background: url(../images/anchor-solid.svg) no-repeat left center; }
+
+.page-adversary #questions {
+  color: #005CAB; }
+  .page-adversary #questions::before {
+    background: url(../images/comments-solid.svg) no-repeat left center; }
+
+.page-adversary .role, .page-adversary .quote {
+  margin: 1rem 0; }
+
+.page-adversary .quote {
+  font-style: italic; }
+
+.page-adversary .adversary-single {
+  text-align: center;
+  position: relative; }
+
+.page-adversary .adversary-pdf {
+  position: absolute;
+  top: 0px;
+  right: 0rem; }
+  .page-adversary .adversary-pdf a {
+    color: #F15D22;
+    padding-right: 1rem;
+    background: url(../images/download-solid.svg) no-repeat right top; }
+
+.page-adversary .adversary .content ul {
+  text-align: left; }
+  @media (min-width: 768px) {
+    .page-adversary .adversary .content ul {
+      -moz-column-count: 3;
+      -moz-column-gap: 20px;
+      -webkit-column-count: 3;
+      -webkit-column-gap: 20px;
+      column-count: 3;
+      column-gap: 20px; } }
+  .page-adversary .adversary .content ul li {
+    list-style: none;
+    margin: 0 0 2rem;
+    padding: 0; }
+
+.page-adversary .adversary .content p {
   text-align: left;
   margin-bottom: 2rem; }
 

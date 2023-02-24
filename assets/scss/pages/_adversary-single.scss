@@ -83,19 +83,6 @@
     .content {
       ul {
         text-align: left;
-        @include media-breakpoint-up(md) {
-          -moz-column-count: 3;
-          -moz-column-gap: 20px;
-          -webkit-column-count: 3;
-          -webkit-column-gap: 20px;
-          column-count: 3;
-          column-gap: 20px;
-        }
-        li {
-          list-style: none;
-          margin: 0 0 2rem;
-          padding:0;
-        }
       }
       p {
         text-align: left;

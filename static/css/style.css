@@ -17342,18 +17342,6 @@ readers do not read off random characters that represent icons */
 
 .page-adversary .adversary .content ul {
   text-align: left; }
-  @media (min-width: 768px) {
-    .page-adversary .adversary .content ul {
-      -moz-column-count: 3;
-      -moz-column-gap: 20px;
-      -webkit-column-count: 3;
-      -webkit-column-gap: 20px;
-      column-count: 3;
-      column-gap: 20px; } }
-  .page-adversary .adversary .content ul li {
-    list-style: none;
-    margin: 0 0 2rem;
-    padding: 0; }
 
 .page-adversary .adversary .content p {
   text-align: left;

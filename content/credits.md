@@ -13,7 +13,7 @@ Web design by [Justin D.](https://jdeblois.com) and Developed by [Squiggy R.](ht
 
 Photos included in the [personas](/personas) are CC-BY (identified in each document) from the following: [Azzazello](https://www.flickr.com/photos/eilard), [Luigi Morante](https://www.flickr.com/photos/eudaimos/), [Hendrik Callens](https://www.flickr.com/photos/n3k/), [Charles Roffey](https://www.flickr.com/photos/charlesfred/), and CC-0 sources via [Unsplash](https://unsplash.com/).
 
-The [Code of Conduct](/codeofconduct.html) has its own credits and is licensed CC-BY 4.0.
+The [Code of Conduct](/coc/) has its own credits and is licensed CC-BY 4.0.
 
 Re-usable design outputs from the USABLE project, such as user personas, will be licensed CC-BY 4.0 International.
 

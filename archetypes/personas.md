@@ -1,17 +1,17 @@
 ---
-title: 'China: "L. N."'
-image: "/personas/default.png"
-role: "Women's Rights Activist"
-country: "China"
-gender: ["Women", "Female"]
-region: "Asia"
-profession: "Activist"
+title: ''
+image: 'personas/default.png'
+role: ''
+country: ''
+gender: ['Women', 'Female']
+region: ''
+profession: ''
 community:
-tools: ["Messaging Apps", "Collaboration"]
-threats: ["Arrest", "Device Confiscation", "Surveillance"]
-short_quote: '"My ideal homeland is one where women are treated with respect and have equal access to education and work opportunities"'
+tools: []
+threats: []
+short_quote: '""'
 date: {{ .Date }}
-pdf: "personas/persona-example.pdf"
+pdf: 'personas/persona-example.pdf'
 draft: true
 ---
 

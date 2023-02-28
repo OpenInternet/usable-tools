@@ -21,7 +21,7 @@
 
     <div id="personas-list">
 
-      <input class="search" placeholder="Search gender, region, country, threats, tools etc" />
+      <input class="search" placeholder="Search country" />
 
       <ul class="row list justify-content-center">
         {{ range .Pages }}
@@ -32,14 +32,7 @@
               <span class="persona-title">{{ .Params.title }}</span>
             </a>
 
-            <div class="role hidden">{{ .Params.role }}</div>
             <div class="name hidden">{{ .Params.name }}</div>
-            <div class="community hidden">{{ .Params.community }}</div>
-            <div class="threats hidden">{{ .Params.threats }}</div>
-            <div class="tools hidden">{{ .Params.tools }}</div>
-            <div class="profession hidden">{{ .Params.profession }}</div>
-            <div class="gender hidden">{{ .Params.gender }}</div>
-            <div class="region hidden">{{ .Params.region }}</div>
             <div class="country hidden">{{ .Params.country }}</div>
 
           </li>

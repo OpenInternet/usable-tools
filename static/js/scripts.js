@@ -30,7 +30,7 @@
   });
 
   var options = {
-    valueNames: ['name', 'role', 'community', 'tools', 'profession', 'gender', 'country' ]
+    valueNames: ['name', 'role', 'community', 'tools', 'profession', 'gender', 'country', 'region' ]
   };
 
   var userList = new List('personas-list', options);

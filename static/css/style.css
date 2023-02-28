@@ -5986,6 +5986,9 @@ h3 {
   height: auto;
   margin: 1rem 0; }
 
+.content a {
+  text-decoration: underline; }
+
 .more-link {
   margin-bottom: 3rem; }
   .more-link a {

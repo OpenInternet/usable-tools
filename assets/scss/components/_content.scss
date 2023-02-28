@@ -43,6 +43,9 @@
     @include img-fluid();
     margin: 1rem 0;
   }
+  a {
+    text-decoration: underline;
+  }
 }
 
 .more-link {

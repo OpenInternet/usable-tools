@@ -24,7 +24,7 @@ In order to conduct meetings with other LGBT activists and the community, Tabass
 
 ## Goals
 
-Tabassum warnts to **advance the LGBT rights movement** in Bangladesh by repealing Section 377.
+Tabassum wants to **advance the LGBT rights movement** in Bangladesh by repealing Section 377.
 
 She also wants to **raise awareness** and implement sensitization programs designed to create an accepting and inclusive society.
 

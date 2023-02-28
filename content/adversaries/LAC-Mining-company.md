@@ -1,6 +1,6 @@
 ---
 title: 'LAC: Mining company'
-region: 'LAC'
+region: 'Latin America and the Caribbean'
 image: "images/adversaries/default.png"
 date: 2023-02-24T04:12:12+04:00
 pdf: "pdfs/adversaries/CHANGE_ME.pdf"

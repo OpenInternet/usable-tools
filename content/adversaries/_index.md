@@ -1,5 +1,5 @@
 ---
-title: "Adversary Archetypes"
+title: "Archetypes"
 date: 2023-02-23T17:23:23+04:00
 draft: false
 ---

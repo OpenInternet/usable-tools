@@ -5589,15 +5589,15 @@ ol {
         color: #B2CEE6; }
   .footer .footer-menu li.home {
     display: none; }
-  .footer .footer-menu li.about, .footer .footer-menu li.blog, .footer .footer-menu li.events, .footer .footer-menu li.personas, .footer .footer-menu li.contact, .footer .footer-menu li.sitemap, .footer .footer-menu li.privacy-policy {
+  .footer .footer-menu li.about, .footer .footer-menu li.blog, .footer .footer-menu li.events, .footer .footer-menu li.personas, .footer .footer-menu li.archetypes, .footer .footer-menu li.contact, .footer .footer-menu li.sitemap, .footer .footer-menu li.privacy-policy {
     margin: 1rem; }
     @media (min-width: 768px) {
-      .footer .footer-menu li.about, .footer .footer-menu li.blog, .footer .footer-menu li.events, .footer .footer-menu li.personas, .footer .footer-menu li.contact, .footer .footer-menu li.sitemap, .footer .footer-menu li.privacy-policy {
+      .footer .footer-menu li.about, .footer .footer-menu li.blog, .footer .footer-menu li.events, .footer .footer-menu li.personas, .footer .footer-menu li.archetypes, .footer .footer-menu li.contact, .footer .footer-menu li.sitemap, .footer .footer-menu li.privacy-policy {
         display: inline-block; }
         .footer .footer-menu li.about .child-menu li, .footer .footer-menu li.blog .child-menu li, .footer .footer-menu li.events .child-menu li, .footer .footer-menu li.personas .child-menu li, .footer .footer-menu li.contact .child-menu li, .footer .footer-menu li.sitemap .child-menu li, .footer .footer-menu li.privacy-policy .child-menu li {
           padding: 0; } }
   @media (min-width: 768px) {
-    .footer .footer-menu li.about, .footer .footer-menu li.blog, .footer .footer-menu li.events, .footer .footer-menu li.personas {
+    .footer .footer-menu li.about, .footer .footer-menu li.blog, .footer .footer-menu li.events, .footer .footer-menu li.archetypes, .footer .footer-menu li.archetypes {
       min-height: 1rem; } }
   .footer ul {
     list-style: none;

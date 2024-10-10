@@ -71,15 +71,15 @@ summaryLength = 20
 
 [[menu.main]]
   identifier = "adversaries"
-	name = "Adversary Archetypes"
+	name = "Archetypes"
 	url = "/adversaries/"
   weight = 6
 
-[[menu.main]]
-  identifier = "organizations"
-	name = "Organizational Archetypes"
-	url = "/organizations/"
-  weight = 7
+# [[menu.main]]
+#   identifier = "organizations"
+#	 name = "Organizational Archetypes"
+# 	url = "/organizations/"
+#  weight = 7
 
 [[menu.main]]
   identifier = "guidebook"

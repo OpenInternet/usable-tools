@@ -3,8 +3,11 @@
   background-image: linear-gradient(to top, #001a39 0%, #002c61 100%);
   color: #fff;
   padding: 2rem;
+
+  
   .footer-inner {
       padding-top: 1rem;
+      margin-top: 1.1rem; /*This allows us to align the links at the bottom with the USABLE logo*/
   }
   a {
     color: #fff;

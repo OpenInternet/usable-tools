@@ -5559,10 +5559,6 @@ ol {
       .header .container {
         justify-content: start; } }
 
-.footer-inner {
-  margin-top: 1.1rem; /*added later on during the site building process, means that the footer links align with the USABLE logo */
-}
-
 .footer {
   background-color: #002D62;
   background-image: linear-gradient(to top, #001a39 0%, #002c61 100%);

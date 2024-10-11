@@ -72,7 +72,7 @@ summaryLength = 20
 [[menu.main]]
   identifier = "adversaries"
 	name = "Archetypes"
-	url = "/adversaries/"
+	url = "/archetypes_adv_org/"
   weight = 6
 
 # [[menu.main]]

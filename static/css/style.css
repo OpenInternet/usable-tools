@@ -5518,7 +5518,7 @@ ol {
 
 .page {
   display: flex;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   flex-direction: column; }
   .page .wrapper {
     flex: 1 0 0; }

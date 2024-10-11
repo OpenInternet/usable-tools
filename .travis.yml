@@ -1,32 +1,41 @@
-dist: xenial
+# 
+# ------------------
+# Travis seemed to be necessary for legacy builds, but no longer
+# As such, I commented it out in favour of the standard GitHub build action for Hugo
+# Builds don't seem to throw any errors with travis.yml commented out, but kept the code here
+#   just in case something breaks once
+# ------------------
+#
 
-addons:
- snaps:
-   - hugo
+# dist: xenial
 
-sudo: true
+# addons:
+#  snaps:
+#    - hugo
 
-branches:
-  only:
-    - master
-    - source
+# sudo: true
 
-env:
-  global:
-    - SOURCE_DIR="public"
-    - BUILD_BRANCH="source"
-    - DEPLOY_BRANCH="master"
+# branches:
+#   only:
+#     - master
+#     - source
 
-script:
-  - hugo
+# env:
+#   global:
+#     - SOURCE_DIR="public"
+#     - BUILD_BRANCH="source"
+#     - DEPLOY_BRANCH="master"
 
-deploy:
-  - provider: pages
-#    edge: true
-    github_token: ${GITHUB_TOKEN}
-    fqdn: usable.tools
-    local_dir: public
-    skip_cleanup: true
-    target_branch: master
-    on:
-      branch: source
+# script:
+#   - hugo
+
+# deploy:
+#   - provider: pages
+# #    edge: true
+#     github_token: ${GITHUB_TOKEN}
+#     fqdn: usable.tools
+#     local_dir: public
+#     skip_cleanup: true
+#     target_branch: master
+#     on:
+#       branch: source

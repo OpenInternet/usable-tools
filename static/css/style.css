@@ -7988,16 +7988,16 @@ h3 {
   background-color: #005CAB;
   object-fit: cover;
 }
-@media (min-width: 768px) {
-  .intro {
-    background-size: 100% auto;
-  }
-}
 .intro h1 {
   color: #fff;
 }
 .intro .inner {
   background-color: rgba(0, 45, 89, 0.7);
+}
+@media (min-width: 768px) {
+  .intro {
+    background-size: 100% auto;
+  }
 }
 
 .strip {
@@ -22437,16 +22437,16 @@ readers do not read off random characters that represent icons */
   background-size: auto 100%;
   object-fit: cover;
 }
-@media (min-width: 768px) {
-  .page-single .intro {
-    background-size: 100% auto;
-  }
-}
 .page-single .intro h1 {
   color: #fff;
 }
 .page-single .intro .inner {
   background-color: rgba(212, 66, 7, 0.8);
+}
+@media (min-width: 768px) {
+  .page-single .intro {
+    background-size: 100% auto;
+  }
 }
 .page-single h2 {
   font-size: 1.2rem;
@@ -22485,16 +22485,16 @@ readers do not read off random characters that represent icons */
   background-size: auto 100%;
   object-fit: cover;
 }
-@media (min-width: 992px) {
-  .page-blog-list .intro, .page-blog .intro {
-    background-size: 100% auto;
-  }
-}
 .page-blog-list .intro h1, .page-blog .intro h1 {
   color: #fff;
 }
 .page-blog-list .intro .inner, .page-blog .intro .inner {
   background-color: rgba(0, 45, 89, 0.7);
+}
+@media (min-width: 992px) {
+  .page-blog-list .intro, .page-blog .intro {
+    background-size: 100% auto;
+  }
 }
 .page-blog-list .blog-featured, .page-blog-list .blog-full, .page-blog .blog-featured, .page-blog .blog-full {
   padding: 1rem 1rem 4rem;
@@ -22539,16 +22539,16 @@ readers do not read off random characters that represent icons */
   background-color: #005CAB;
   object-fit: cover;
 }
-@media (min-width: 576px) {
-  .page-event-list .intro {
-    background-size: 100% auto;
-  }
-}
 .page-event-list .intro h1 {
   color: #fff;
 }
 .page-event-list .intro .inner {
   background-color: rgba(0, 45, 89, 0.7);
+}
+@media (min-width: 576px) {
+  .page-event-list .intro {
+    background-size: 100% auto;
+  }
 }
 .page-event-list h2 {
   margin-top: 1rem;
@@ -22593,6 +22593,9 @@ readers do not read off random characters that represent icons */
   }
 }
 
+.page-personas-list {
+  text-align: center;
+}
 .page-personas-list .intro {
   color: #fff;
   background-color: #F15D22;
@@ -22600,16 +22603,16 @@ readers do not read off random characters that represent icons */
   background-size: auto 100%;
   object-fit: cover;
 }
-@media (min-width: 1576px) {
-  .page-personas-list .intro {
-    background-size: 100% auto;
-  }
-}
 .page-personas-list .intro h1 {
   color: #fff;
 }
 .page-personas-list .intro .inner {
   background-color: rgba(0, 45, 89, 0.7);
+}
+@media (min-width: 1576px) {
+  .page-personas-list .intro {
+    background-size: 100% auto;
+  }
 }
 @media (min-width: 768px) {
   .page-personas-list .whitebox {
@@ -22619,7 +22622,6 @@ readers do not read off random characters that represent icons */
 .page-personas-list .persona-item {
   padding: 1rem;
   list-style-type: none;
-  text-align: center;
 }
 .page-personas-list .persona-item .hidden {
   visibility: hidden;
@@ -22627,14 +22629,14 @@ readers do not read off random characters that represent icons */
   left: -9999px;
   overflow: hidden;
 }
-@media (min-width: 768px) {
-  .page-personas-list .persona-item {
-    padding: 3rem;
-  }
-}
 .page-personas-list #personas-list .search {
   min-width: 400px;
   width: 100%;
+}
+@media (min-width: 768px) {
+  .page-personas-list {
+    padding: 3rem;
+  }
 }
 
 .page-persona h1 {

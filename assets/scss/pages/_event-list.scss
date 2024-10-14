@@ -4,15 +4,15 @@
     background: url(../images/events/events_header-image.jpg) no-repeat center center;
     background-size: auto 100%;
     background-color: $secondary;
-    @include media-breakpoint-up(sm) {
-      background-size: 100% auto;
-    }
     object-fit: cover;
     h1 {
       color: #fff;
     }
     .inner {
       background-color: rgba(0,45,89,0.7);
+    }
+    @include media-breakpoint-up(sm) {
+      background-size: 100% auto;
     }
   }
   h2 {

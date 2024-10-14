@@ -3,10 +3,10 @@
   background: url(../images/events/events_header-image.jpg) no-repeat center center;
   background-size: auto 100%;
   background-color: $secondary;
+  object-fit: cover;
   @include media-breakpoint-up(md) {
     background-size: 100% auto;
   }
-  object-fit: cover;
 
   .inner {
     background-color: rgba(0,45,89,0.7);
@@ -42,14 +42,14 @@
   background: url(../images/events/events_header-image.jpg) no-repeat center center;
   background-size: auto 100%;
   background-color: $secondary;
-  @include media-breakpoint-up(md) {
-    background-size: 100% auto;
-  }
-  object-fit: cover;
+    object-fit: cover;
   h1 {
     color: #fff;
   }
   .inner {
     background-color: rgba(0,45,89,0.7);
+  }
+  @include media-breakpoint-up(md) {
+    background-size: 100% auto;
   }
 }

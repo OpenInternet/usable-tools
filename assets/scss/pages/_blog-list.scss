@@ -3,15 +3,15 @@
     color: #fff;
     background: url(../images/blog/blog-page_banner_unsplash-Dariusz-Sankowski.jpg) no-repeat center center;
     background-size: auto 100%;
-    @include media-breakpoint-up(lg) {
-      background-size: 100% auto;
-    }
-    object-fit: cover;
+        object-fit: cover;
     h1 {
       color: #fff;
     }
     .inner {
       background-color: rgba(0,45,89,0.7);
+    }
+    @include media-breakpoint-up(lg) {
+      background-size: 100% auto;
     }
   }
   .blog-featured, .blog-full {

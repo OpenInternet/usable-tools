@@ -92,10 +92,10 @@
       overflow: hidden;
       display: inline-block;
     }
+    font-size: 1.5rem;
     @include media-breakpoint-up(lg) {
       bottom: 25%;
     }
-    font-size: 1.5rem;
   }
   button.prev-arrow {
     left: 2rem;

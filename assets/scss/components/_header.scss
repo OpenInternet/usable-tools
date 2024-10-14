@@ -4,16 +4,16 @@
   display: flex;
   justify-content: space-between;
   position: relative;
+  box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
   @include media-breakpoint-up(md) {
     align-items: center;
   }
-  box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
   .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     @include media-breakpoint-up(md) {
       justify-content: start;
     }
-    align-items: center;
   }
 }

@@ -19,14 +19,14 @@
       position: absolute;
       left: 0;
       top: 0.3rem;
-      @include media-breakpoint-up(md) {
-        top: 0.6rem;
-      }
       background-size: 100% 100%;
       display: block;
       width: 2rem;
       height: 2rem;
       content: "";
+      @include media-breakpoint-up(md) {
+        top: 0.6rem;
+      }
     }
   }
   #overview {

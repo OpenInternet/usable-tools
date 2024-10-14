@@ -3,15 +3,15 @@
     color: #fff;
     background: url(../images/about-header.jpg) no-repeat center center;
     background-size: auto 100%;
-    @include media-breakpoint-up(md) {
-      background-size: 100% auto;
-    }
-    object-fit: cover;
+        object-fit: cover;
     h1 {
       color: #fff;
     }
     .inner {
       background-color: rgba(212,66,7,0.8);
+    }
+    @include media-breakpoint-up(md) {
+      background-size: 100% auto;
     }
   }
   h2 {

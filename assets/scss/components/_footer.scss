@@ -1,3 +1,5 @@
+@use "sass:color";
+
 .footer {
   background-color: $primary;
   background-image: linear-gradient(to top, #001a39 0%, #002c61 100%);
@@ -66,14 +68,14 @@
     li {
       display: block;
       margin-right: 10px;
-      color: lighten($secondary, 50%);
+      color: color.adjust($secondary, $lightness: 50%, $space: hsl);
       font-size: 0.95rem;
       line-height: 1.8;
       &:last-of-type {
         margin-right: 0;
       }
       a {
-        color: lighten($secondary, 50%);
+        color: color.adjust($secondary, $lightness: 50%, $space: hsl);
         text-decoration: none;
         &:hover {
           text-decoration: underline;
@@ -81,7 +83,7 @@
       }
       &.copyright {
         font-weight: bold;
-        color: lighten($secondary, 50%);
+        color: color.adjust($secondary, $lightness: 50%, $space: hsl);
         display: none;
         @include media-breakpoint-up(md) {
           display: inline-block;

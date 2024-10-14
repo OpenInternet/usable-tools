@@ -1,3 +1,5 @@
+@use "sass:color";
+
 @mixin badge-variant($bg) {
   color: color-yiq($bg);
   background-color: $bg;
@@ -6,7 +8,7 @@
     @include hover-focus {
       color: color-yiq($bg);
       text-decoration: none;
-      background-color: darken($bg, 10%);
+      background-color: color.adjust($bg, $lightness: -10%, $space: hsl);
     }
   }
 }

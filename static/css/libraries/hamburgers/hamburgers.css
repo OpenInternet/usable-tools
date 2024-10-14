@@ -90,5 +90,3 @@
 .hamburger--slider.is-active .hamburger-inner::after {
   transform: translate3d(0, -24px, 0) rotate(-90deg);
 }
-
-/*# sourceMappingURL=hamburgers.css.map */

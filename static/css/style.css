@@ -7365,6 +7365,7 @@ ol {
 }
 .footer .footer-inner {
   padding-top: 1rem;
+  margin-top: 1.1rem;
 }
 .footer a {
   color: #fff;
@@ -22593,9 +22594,6 @@ readers do not read off random characters that represent icons */
   }
 }
 
-.page-personas-list {
-  text-align: center;
-}
 .page-personas-list .intro {
   color: #fff;
   background-color: #F15D22;
@@ -22622,6 +22620,7 @@ readers do not read off random characters that represent icons */
 .page-personas-list .persona-item {
   padding: 1rem;
   list-style-type: none;
+  text-align: center;
 }
 .page-personas-list .persona-item .hidden {
   visibility: hidden;
@@ -22962,5 +22961,3 @@ body {
   font-family: "montserrat-regular", Arial, sans-serif, -apple-system;
   color: #002D62;
 }
-
-/*# sourceMappingURL=style.css.map */

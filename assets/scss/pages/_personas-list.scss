@@ -25,14 +25,14 @@
   .persona-item {
     padding: 1rem;
     list-style-type: none;
+    text-align: center;
     .hidden {
       visibility: hidden;
       position: absolute;
       left: -9999px;
       overflow: hidden;
     }
-    }
-    text-align: center;
+  }
   #personas-list {
     .search {
       min-width: 400px;

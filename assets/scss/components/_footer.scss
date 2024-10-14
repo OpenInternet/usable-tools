@@ -41,7 +41,7 @@
       &.home {
         display: none;
       }
-      &.about, &.blog, &.events, &.personas, &.contact, &.sitemap, &.archetypes, &.guidebook &.privacy-policy {
+      &.about, &.blog, &.events, &.personas, &.contact, &.sitemap, &.archetypes, &.guidebook, &.privacy-policy, &.sitemap {
         margin: 1rem;
         @include media-breakpoint-up(md) {
         display: inline-block;

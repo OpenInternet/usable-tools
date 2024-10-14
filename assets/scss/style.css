@@ -7296,7 +7296,10 @@ ol {
 
 .page {
   display: flex;
-  /* min-height: 100vh; */
+  min-height: 70vh;
+  /* Previous iterations of the site had a min-height of 100vh.*/
+  /* Changed this since pages that had little content (several lines worth) had too much blank space, especially on bigger screens */
+  /* Considered creating another category of page with no vertical min-height for pages with smaller amounts of content, but commenting out the min-height didn't change the functionality of any other pages. So I just commented it our instead of creating yet another type of page */
   flex-direction: column;
 }
 .page .wrapper {

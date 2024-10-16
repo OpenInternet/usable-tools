@@ -26,9 +26,26 @@ Anything added to the `static` directory will be available to the published site
 
 ## Publishing content / Deploying changes
 
-To publish or edit content first install [Hugo](https://gohugo.io/). Then run the command `hugo server` in a terminal from the root of the `source` branch. This will provide a link to view the site.  
+This website uses Git workflows. This means that, any time a file changes within the website, GitHub will automatically launch an instance of [Hugo](https://gohugo.io) to build the website. Hugo turns all of the files in this repository into a static website. This website is then hosted on [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
 
-Any changes pushed to the `source` branch will automatically build the site and deploy changes to the live site.
+If you have the appropriate permissions in the repository and would like to check the status of the Git workflows, just go to the 'Actions' tab in the upper left corner of your GitHub menu. For more information on GitHub Actions, check out [GitHub's documentation](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions) on the topic.
+
+It's also possible to test out the website locally; particularly useful if you want to try out new things without uploading the changing to your repository or syncing them to GitHub Pages. In order to do so, [install Hugo](https://gohugo.io/getting-started/quick-start/) on your machine, open the folder with the repository in it. Within that folder:
+
+* To build the static files run `hugo`.
+* To preview the website locally run `hugo server`.
+
+
+## Styles and stylesheets
+
+This website uses [SASS](https://sass-lang.com/guide/) to manage its stylesheets. In order to modify the styling of the site, just update `assets/scss/style.scss`. Afterwards, you will need to run the `sass` command in order to turn the .scss files into the css files which the site's styles are based on. **Do note:** we currently do not have a GitHub workflow that uses `sass` to build the css files when the site is being built via GitHub Pages. This means that, whenever we change the scss files, we will run `sass` locally on our machines in order to compile them into css files, then commit those new files to the webpage's repository.
+
+This webpage uses the [Bootstrap](https://getbootstrap.com/) library (version 4).
+
+To compile the css, first install SASS by [following those directions](https://sass-lang.com/install/). Once this is installed, open the folder containing the webpage in your terminal and run `sass assets/scss/style.scss static/css/style.css --no-source-map` (we pass the `no-source-map` parameter when getting the site ready for production, since the source map is just used for debugging).
+
+At time of writing, we used SASS version 1.79.4 compiled with dart2js 3.5.3 (you can check which version you use by running `sass --version`).
+
 
 ## Updating Home Page
 **Home page carousel** content is published within the `content/front_carousel` directory. The full text of this content is displayed on the front page. HTML can be included in these, such as the orange USABLE text within the the h2 tag with: `<span class="orange">USABLE</span>`.
@@ -55,13 +72,3 @@ This content type doesn't require the `title` value. If `title` is defined in `f
 
 **baseURL**
 The base baseURL in `config.toml` will need to be changed to `baseURL = "http://usable.tools/"` before switching to this domain. The trailing `/` is required for the site to render correctly.
-
-## Using Hugo
-The following commands should be ran from the top level of the source files (within the same directory as `config.toml`).
-
-To build the static files run `hugo`.
-
-To preview the website locally run `hugo server`.
-
-## Compiling SASS
-To update SASS files, run `npm run sass` in a terminal and commit the updated CSS files.

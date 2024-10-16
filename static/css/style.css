@@ -7333,6 +7333,11 @@ ol {
   color: #F15D22;
 }
 
+em {
+  font-weight: 600;
+  font-style: normal;
+}
+
 .header {
   color: #002D62;
   background-color: #ffffff;

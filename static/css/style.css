@@ -22599,6 +22599,11 @@ readers do not read off random characters that represent icons */
   }
 }
 
+.page-personas-list {
+  /*@include media-breakpoint-up(md) {
+    padding: 3rem;
+  } */
+}
 .page-personas-list .intro {
   color: #fff;
   background-color: #F15D22;
@@ -22636,11 +22641,6 @@ readers do not read off random characters that represent icons */
 .page-personas-list #personas-list .search {
   min-width: 400px;
   width: 100%;
-}
-@media (min-width: 768px) {
-  .page-personas-list {
-    padding: 3rem;
-  }
 }
 
 .page-persona h1 {

@@ -39,7 +39,10 @@
       width: 100%;
     }
   }
+  /* commented out this section; the previous version of the site had borders just for the personas list pages
+  those borders were inconsistent with the rest of the site and looked a bit out of place
+  
   @include media-breakpoint-up(md) {
     padding: 3rem;
-  }
+  } */
 }

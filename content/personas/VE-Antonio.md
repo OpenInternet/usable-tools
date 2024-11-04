@@ -11,7 +11,6 @@ tools: []
 threats: []
 short_quote: '“To be part of the LGBTIQ+ community in my country is to suffer constant online and offline harassment.”'
 date: 2023-03-01T00:10:48+04:00
-pdf: 'pdfs/personas/CHANGE_ME.pdf'
 draft: false
 ---
 

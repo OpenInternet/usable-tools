@@ -11,7 +11,6 @@ tools: []
 threats: []
 short_quote: '“I’m investigating multiple corruption schemes that put me at risk.”'
 date: 2023-02-28T23:31:34+04:00
-pdf: 'pdfs/personas/CHANGE_ME.pdf'
 draft: false
 ---
 

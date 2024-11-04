@@ -3,7 +3,6 @@ title: 'ID: Human rights organization'
 country: 'Indonesia'
 image: "images/organizations/default.png"
 date: 2023-02-24T05:07:05+04:00
-pdf: "pdfs/organizations/CHANGE_ME.pdf"
 draft: false
 ---
 

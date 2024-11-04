@@ -11,7 +11,6 @@ tools: []
 threats: []
 short_quote: '“In my country, not only sexism kills…  the state, it is also an accomplice.”'
 date: 2023-03-01T00:14:07+04:00
-pdf: 'pdfs/personas/CHANGE_ME.pdf'
 draft: false
 ---
 

@@ -3,7 +3,6 @@ title: 'VE: Human rights organization'
 country: 'Venezuela'
 image: "images/organizations/default.png"
 date:  023-02-24T05:47:54+04:00
-pdf: "pdfs/organizations/CHANGE_ME.pdf"
 draft: false
 ---
 

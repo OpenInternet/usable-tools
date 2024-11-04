@@ -11,7 +11,6 @@ tools: []
 threats: []
 short_quote: '“To be a journalist in Venezuela is to constantly face the repression of the regime for everything we say.”'
 date: 2023-03-01T00:07:37+04:00
-pdf: 'pdfs/personas/CHANGE_ME.pdf'
 draft: false
 ---
 

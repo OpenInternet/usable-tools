@@ -3,7 +3,6 @@ title: 'SSA: Government minister'
 region: 'Sub-Saharan Africa'
 image: "images/adversaries/default.png"
 date: 2023-02-24T00:36:53+04:00
-pdf: "pdfs/adversaries/CHANGE_ME.pdf"
 draft: false
 ---
 

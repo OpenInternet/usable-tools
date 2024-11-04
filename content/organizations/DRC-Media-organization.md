@@ -3,7 +3,6 @@ title: 'DRC: Media organization'
 country: "DRC"
 image: "images/organizations/default.png"
 date: 2023-02-24T05:53:10+04:00
-pdf: "pdfs/organizations/CHANGE_ME.pdf"
 draft: false
 ---
 

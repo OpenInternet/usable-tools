@@ -3,7 +3,6 @@ title: 'ID: Multimedia and online outlet'
 country: 'Indonesia'
 image: "images/organizations/default.png"
 date:  023-02-24T06:01:59+04:00
-pdf: "pdfs/organizations/CHANGE_ME.pdf"
 draft: false
 ---
 

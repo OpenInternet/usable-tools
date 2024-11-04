@@ -3,7 +3,6 @@ title: 'DRC: NGO'
 country: 'DRC'
 image: "images/organizations/default.png"
 date: 2023-02-24T06:06:33+04:00
-pdf: "pdfs/organizations/CHANGE_ME.pdf"
 draft: false
 ---
 

@@ -11,7 +11,6 @@ tools: []
 threats: []
 short_quote: '"The biggest disease is corruption, the cure is transparency"'
 date: 2023-02-28T23:43:08+04:00
-pdf: 'pdfs/personas/CHANGE_ME.pdf'
 draft: false
 ---
 

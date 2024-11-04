@@ -3,7 +3,6 @@ title: 'VE: Feminist movement'
 country: "Venezuela"
 image: "images/organizations/default.png"
 date: 2023-02-23T22:50:24+04:00
-pdf: "pdfs/organizations/CHANGE_ME.pdf"
 draft: false
 ---
 

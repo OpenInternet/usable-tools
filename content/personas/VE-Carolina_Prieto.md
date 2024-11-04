@@ -11,7 +11,6 @@ tools: []
 threats: []
 short_quote: '“Being a journalist in Venezuela is very difﬁcult because the circumstances are against you, but for that exact same reason you have to do everything you can do so that people know what is happening.”'
 date: 2023-02-27T21:19:53+04:00
-pdf: 'pdfs/personas/CHANGE_ME.pdf'
 draft: false
 ---
 

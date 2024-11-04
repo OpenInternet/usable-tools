@@ -3,7 +3,6 @@ title: 'SSA: Nation-state'
 region: 'Sub-Saharan Africa'
 image: "images/adversaries/default.png"
 date: 2023-02-23T18:04:41+04:00
-pdf: "pdfs/adversaries/CHANGE_ME.pdf"
 draft: false
 ---
 

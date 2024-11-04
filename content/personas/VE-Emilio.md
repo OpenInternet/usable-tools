@@ -11,7 +11,6 @@ tools: []
 threats: []
 short_quote: '“In a context of Complex Humanitarian Emergency, solidarity and direct work with communities is more important than ever.”'
 date: 2023-03-01T00:04:27+04:00
-pdf: 'pdfs/personas/CHANGE_ME.pdf'
 draft: false
 ---
 

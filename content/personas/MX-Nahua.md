@@ -11,7 +11,6 @@ tools: []
 threats: []
 short_quote: ''
 date: 2023-02-28T23:55:17+04:00
-pdf: 'pdfs/personas/CHANGE_ME.pdf'
 draft: false
 ---
 

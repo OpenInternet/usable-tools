@@ -77,6 +77,4 @@ Applications will be reviewed by a three-person technical committee based on the
 
 ## HOW TO APPLY?
 
-You may apply as an individual or an organization by submitting an application online via this Google Form: https://docs.google.com/forms/d/e/1FAIpQLScMdyN_uZFK43Z5XRErjL7hT5U27j10tMUu5iOs35U0zaqjBw/viewform?usp=sf_link
-
-If you prefer to submit the application using PGP, you may email afowler@internews.org. Public key is available here: https://usable.tools/pdfs/Ashley_PGPkey.pdf
+We're afraid that applications are now closed

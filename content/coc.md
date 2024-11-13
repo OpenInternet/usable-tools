@@ -11,7 +11,7 @@ aliases:
 
 All attendees, speakers, sponsors, and volunteers at USABLE hosted events (including the UXForum, Organizational Security Village, USABLE trainings and workshops, and all side events) are required to agree with the following code of conduct. Organizers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe  environment for everybody.
 
-Any violations may be brought to the event organizers directly or via email to *support@usable.tools* .  PGP encryption is supported, please encrypt to [Ashley Fowler](mailto:afowler@internews.org) and/or [Jon Camfield](https://keys.openpgp.org/search?q=jcamfield%40internews.org). At in-person events, conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference.
+Any violations may be brought to the event organizers directly or via email to *support@usable.tools* .  PGP encryption is supported, please encrypt to [Ashley Fowler](mailto:afowler@internews.org). At in-person events, conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference.
 
 ## Sharing and Privacy Policies
 

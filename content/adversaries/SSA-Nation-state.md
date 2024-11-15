@@ -4,6 +4,7 @@ region: 'Sub-Saharan Africa'
 image: "images/adversaries/default.png"
 date: 2023-02-23T18:04:41+04:00
 draft: false
+pdf: "pdfs/adversaries/SSA_nation_state.pdf"
 ---
 
 ## Basic

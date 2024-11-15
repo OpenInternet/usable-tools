@@ -4,6 +4,7 @@ region: 'Sub-Saharan Africa'
 image: "images/adversaries/default.png"
 date: 2023-02-24T00:36:53+04:00
 draft: false
+pdf: "pdfs/adversaries/SSA_govt_minister.pdf"
 ---
 
 ## Basic

@@ -4,6 +4,7 @@ region: 'Latin America and the Caribbean'
 image: "images/adversaries/default.png"
 date: 2023-02-24T04:12:12+04:00
 draft: false
+pdf: "pdfs/adversaries/LAC_mining_company.pdf"
 ---
 
 ## Basic

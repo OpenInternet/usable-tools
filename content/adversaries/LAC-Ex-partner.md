@@ -4,6 +4,7 @@ region: 'Latin America and the Caribbean'
 image: "images/adversaries/default.png"
 date: 2023-02-23T23:34:26+04:00
 draft: false
+pdf: "pdfs/adversaries/
 ---
 
 ## Basic

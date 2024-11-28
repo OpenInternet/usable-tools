@@ -22733,9 +22733,19 @@ readers do not read off random characters that represent icons */
   position: relative;
 }
 .page-persona .persona-pdf {
-  position: absolute;
-  top: 0px;
-  right: 0rem;
+  position: relative;
+  top: -1rem;
+  float: left;
+  padding-left: 1rem;
+}
+@media (min-width: 481px) {
+  .page-persona .persona-pdf {
+    position: absolute;
+    top: 0px;
+    right: 0rem;
+    float: none;
+    padding-left: 0px;
+  }
 }
 .page-persona .persona-pdf a {
   color: #F15D22;
@@ -22846,9 +22856,19 @@ readers do not read off random characters that represent icons */
   position: relative;
 }
 .page-adversary .adversary-pdf {
-  position: absolute;
-  top: 0px;
-  right: 0rem;
+  position: relative;
+  top: -1rem;
+  float: left;
+  padding-left: 1rem;
+}
+@media (min-width: 481px) {
+  .page-adversary .adversary-pdf {
+    position: absolute;
+    top: 0px;
+    right: 0rem;
+    float: none;
+    padding-left: 0px;
+  }
 }
 .page-adversary .adversary-pdf a {
   color: #F15D22;
@@ -22944,9 +22964,25 @@ readers do not read off random characters that represent icons */
   position: relative;
 }
 .page-organization .organization-pdf {
-  position: absolute;
-  top: 0px;
-  right: 0rem;
+  position: relative;
+  top: -1rem;
+  float: left;
+  padding-left: 1rem;
+}
+@media (min-width: 481px) {
+  .page-organization .organization-pdf {
+    position: absolute;
+    top: 0px;
+    right: 0rem;
+    float: none;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 480px) {
+  .page-organization .organization-pdf {
+    position: relative;
+    top: -1rem;
+  }
 }
 .page-organization .organization-pdf a {
   color: #F15D22;

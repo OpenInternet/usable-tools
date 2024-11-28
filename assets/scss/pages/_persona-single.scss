@@ -72,9 +72,22 @@
     position: relative;
   }
   .persona-pdf {
-    position: absolute;
-    top: 0px;
-    right: 0rem;
+    
+  
+    position: relative;
+    top: -1rem;
+    float: left;
+    padding-left: 1rem;
+
+    @media (min-width: 481px) {
+      position: absolute;
+      top: 0px;
+      right: 0rem;
+      float: none;
+      padding-left: 0px;
+    }
+
+
     a {
       color: $orange;
       padding-right: 1rem;
